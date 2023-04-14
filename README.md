@@ -1,2 +1,2 @@
-# thesis-ecowash
+# portal-ecowash
 ecowash system
