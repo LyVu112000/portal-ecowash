@@ -4,7 +4,184 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="615f7302-9578-4679-888f-6fe3d8994457" name="Changes" comment="test 1">
+    <list default="true" id="615f7302-9578-4679-888f-6fe3d8994457" name="Changes" comment="add css, dumpdata, dashboard, enumdata">
+      <change afterPath="$PROJECT_DIR$/dist/output.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/delete-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ecowash.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bill_error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/color-wheel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/customer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/empty-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icon-error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/planning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/ApproveButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/CancelButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/CancelReceivedReceiptButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/CheckEnoughReceivedProductButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/DebtClosingButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/FinishDeliveryButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/LockAndUnLockButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/NumberDeliveryIncorrectButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/PackingConfirmationButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/ProductDeliveryCheckedButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/ReceivedButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/ReceivedProductButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/actionButton/RequestToCheckProductButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/autoSuggest/AutoSuggest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/autoSuggestWithMultiCheckbox/AutoSuggestMultiCheckbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/configColumn/ConfigColumn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customsDatePicker/customsDatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dataSheet/addRow/AddRow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dataSheet/deleteRow/DeleteRow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dataSheet/selectColumn/SelectColumn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/datePicker/InputDatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/datetimePicker/InputDateTimePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dialogConfirm/DialogConfirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dialogDetail/DialogDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/filterModel/FilterModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/filterSearchBar/FilterSearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/floatLabel/floatLabel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/inputField/InputField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading/Loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/multiSelect/MultiSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/normalButton/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/normalButton/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/reactSelect/ReactSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/selectBox/SelectComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/table/TableComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/table/TableComponentWithFixedColumns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/timer/InputTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TheContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TheFooter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TheHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TheHeaderDropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TheHeaderDropdownMssg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TheHeaderDropdownNotif.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TheHeaderDropdownTasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TheHeaderPickColor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TheLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TheLoader2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/TheSidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/_nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/env/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/env/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useEnumData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/en/translation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locales/vi/translation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/AddReceviedReceipt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/CreateOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/DeliveryOrderCofirmPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/DeliveryOrderList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/OrderDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/OrderSheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/OrderSheetDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/Print/ComponentToPrint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/Print/Print.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/ProductDeliveryPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/ProductListPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/SignatureImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/tab/Detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/delivery/tab/DetailDelivery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/order/OrderList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/CancelConfirmPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/ConfirmNoErrorPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/CreateOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/DeleteImageConfirmPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/DeliveryReceiptProductListPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/OrderDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/OrderSheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/OrderSheetRecevied.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/ReceiptStatus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/ReceivedOrderList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/SignatureImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/tab/Detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/order/recevied/tab/DetailRecevied.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BillReportV2/BillReportListV2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BillReportV2/DebtClosingTabV2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BillReportV2/DetailedReportPopupV2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BillReportV2/SummaryReportOrdinaryProductTabV2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BillReportV2/SummaryReportTabV2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BillReportV2/detail/DetailedReportDeliveryV2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BillReportV2/detail/DetailedReportReceivedV2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/account/AccountDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/account/accountList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/aggregatedByCustomer/AggregatedByCustomer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/aggregatedByItems/AggregatedByItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contracts/ContractList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contracts/detail/ContractDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contracts/detail/ContractProductList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contracts/detail/ContractTimeList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contracts/detail/ProductListPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/customer/CustomerDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/customer/CustomerList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/dashboard/DashboardReceipt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/deliveryReceiptError/AcceptErrorDeliveryPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/deliveryReceiptError/DeliveryReceiptErrorList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/department/CreateDepartment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/department/DepartmentList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/department/DetailDepartment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/finalDebt/finalDebt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/items/CreateItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/items/ProductItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/items/ProductItemsDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/planning/Planning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/planning/PlanningDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/planning/PlanningSheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/productGroup/ProductGroupDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/productGroup/ProductGroupList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/receivedReceiptError/NumberReceivedReceiptConfirmPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/receivedReceiptError/ReceivedReceiptErrorList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/report/Report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/role/ComponentData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/role/DetailRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/role/RoleUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/role/roles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/staff/StaffDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/staff/StaffList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/staff/staffDataSheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/truck/TruckDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/truck/TruckList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/popup/ImagePopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/bgColorReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/enumDataReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/layoutReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/AccountService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ReceivedReceipt/ReceivedReceipt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ToastService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/account/account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/contract/contractAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/customer/customerAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/dashboard/dashboardAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/deliveryReceipt/DeliveryReceipt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/department/department.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/enumData/enumData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/finalDebt/finalDebt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/planning/Planning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/productGroup/productGroupAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/productItem/productItemAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/report/Report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/role/Role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/staff/Staff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/truck/Truck.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,28 +189,45 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OXTcCNDW4z5dsHm8f1fyLjOhbV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/thesis",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/thesis/ecowash-portal&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\thesis\ecowash-portal" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +237,10 @@
       <option name="presentableId" value="Default" />
       <updated>1681706004147</updated>
       <workItem from="1681706005459" duration="417000" />
+      <workItem from="1681783043938" duration="3676000" />
+      <workItem from="1682060328493" duration="594000" />
+      <workItem from="1682388115398" duration="712000" />
+      <workItem from="1683779568828" duration="2289000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1681706059720</created>
@@ -65,7 +263,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681706142790</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add translation, util, scss, assets/icons, common and constant">
+      <created>1683779860039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683779860039</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add config files">
+      <created>1683779980115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683779980115</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add css, dumpdata, dashboard, enumdata">
+      <created>1683789886766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683789886766</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +293,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="test 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 1" />
+    <MESSAGE value="add translation, util, scss, assets/icons, common and constant" />
+    <MESSAGE value="add config files" />
+    <MESSAGE value="add css, dumpdata, dashboard, enumdata" />
+    <option name="LAST_COMMIT_MESSAGE" value="add css, dumpdata, dashboard, enumdata" />
   </component>
 </project>
