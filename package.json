@@ -1,0 +1,91 @@
+{
+  "name": "portal",
+  "version": "1.0",
+  "description": "portal ecowash",
+  "homepage": ".",
+  "private": true,
+  "dependencies": {
+    "@coreui/coreui": "^3.4.0",
+    "@coreui/icons": "^2.0.0",
+    "@coreui/icons-react": "^1.1.0",
+    "@coreui/react": "^3.4.6",
+    "@coreui/utils": "^1.3.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^5.0.0-beta.5",
+    "@material-ui/styles": "^4.11.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/lab": "^5.0.0-alpha.112",
+    "@mui/material": "^5.10.17",
+    "@mui/x-date-pickers": "^5.0.10",
+    "@reduxjs/toolkit": "^1.9.2",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.0",
+    "add": "^2.0.6",
+    "axios": "^1.2.1",
+    "classnames": "^2.2.6",
+    "core-js": "^3.9.1",
+    "dayjs": "^1.11.7",
+    "env-cmd": "^10.1.0",
+    "enzyme": "^3.11.0",
+    "i18next": "^22.4.5",
+    "i18next-http-backend": "^2.1.0",
+    "interactjs": "^1.10.17",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "mui-tables": "^2.0.4",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-app-polyfill": "^2.0.0",
+    "react-big-calendar": "^1.5.2",
+    "react-calendar-timeline": "^0.28.0",
+    "react-datasheet-grid": "4.9.0",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^12.1.1",
+    "react-redux": "^7.2.3",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^5.7.0",
+    "react-spinners": "^0.13.7",
+    "react-table": "6.11.5",
+    "react-table-hoc-fixed-columns": "^2.3.4",
+    "react-to-print": "^2.14.12",
+    "react-toastify": "^9.1.1",
+    "react-uuid": "^2.0.0",
+    "reactstrap": "^9.1.5",
+    "redux": "^4.0.5",
+    "sass": "^1.32.8",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "auto-changelog": "~2.2.1",
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.development react-scripts start",
+    "build": "env-cmd -f .env.development react-scripts build",
+    "deploy": "scp -C -r ./build/* dev:/var/www/ops.ebst.tech/html"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 10",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/*index.js",
+      "!src/serviceWorker.js",
+      "!src/polyfill.js"
+    ]
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  }
+}

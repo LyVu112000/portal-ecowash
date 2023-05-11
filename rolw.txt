@@ -1,0 +1,202 @@
+import {CCol, CRow} from '@coreui/react'
+import {TextField, Button, IconButton, Link, Checkbox, Typography} from '@mui/material'
+import React, {useState} from 'react'
+import Autocomplete from '@mui/material/Autocomplete';
+import SearchIcon from '@mui/icons-material/Search';
+import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+import ReactTable from "react-table";
+import "react-table/react-table.css";
+import {heightOfTbl} from 'src/util/Utils';
+import {useStylesMui} from "../css/makeStyles";
+import Modal from '@mui/material/Modal';
+import AddRoleDialog from "../AddRoleDialog";
+import Box from "@mui/material/Box";
+import {Dialog, DialogActions, DialogContent, DialogTitle} from "@material-ui/core";
+import data from "@coreui/coreui/js/src/dom/data";
+
+const Roles = () => {
+    const [isOpenDialog, setOpenDialog] = useState(false)
+    const classes = useStylesMui();
+
+    return (
+        <div className='main-bg1'>
+
+            <CRow>
+                <CCol xs={5}>
+                    <Autocomplete
+                        className="mg--8"
+                        freeSolo
+                        id="free-solo-2-demo"
+                        disableClearable
+                        options={[]}
+                        renderInput={(params) => (
+                            <TextField
+                                className={classes.root}
+                                {...params}
+                                label="Tên/Mã sản phẩm"
+                                InputProps={{
+                                    ...params.InputProps,
+                                    type: 'search',
+                                }}
+                            />
+                        )}
+                    />
+                </CCol>
+                <CCol xs={3}>
+                    <Button variant="outlined"
+                            className={classes.root}
+                            startIcon={<SearchIcon />}
+                            style={{marginRight: "12px", textTransform: 'none'}}>
+                        Tìm kiếm
+                    </Button>
+                    <Button variant="outlined"
+                            onClick={()=>{
+                                setOpenDialog(true)
+                            }}
+                            className={classes.root}
+                            startIcon={<AddCircleOutlineIcon />}
+                            style={{textTransform: 'none'}}>
+                        Thêm mới
+                    </Button>
+                </CCol>
+            </CRow>
+            <ReactTable
+                style={{height: heightOfTbl, marginTop: "20px"}} //TODO
+                data={[
+                    {id:'1', code: 'Kế toán', sl: '9', firstName: '09/09/2022 13:00',statu:'Khóa'},
+                    {id:'2', code: 'Quản lý nhà máy', sl: '5', firstName: '09/12/2022 17:00',statu:'Hoạt động'},
+                ]}
+                columns={[
+                    {
+                        Header: "ID",
+                        accessor: "id"
+                    },
+                    {
+                        Header: "Quyền",
+
+                        id: "lastName1",
+                        accessor: (d) => {return (<Button onClick={()=>{setOpenDialog(true)}}>{d.code}</Button>)}
+                    },
+                    {
+                        Header: "SL user",
+                        accessor: "sl"
+                    },
+                    {
+                        Header: "Phân loại",
+                        id: "lastName2",
+                        accessor: (d) => d.code
+                    },
+                    {
+                        Header: "Ngày tạo",
+                        accessor: "firstName"
+                    },
+                    {
+                        Header: "Trạng thái",
+                        id: "lastName3",
+                        accessor: "statu"
+                    }
+                ]}
+                defaultPageSize={20}
+
+                className="-striped -highlight margin-top-20"
+            />
+
+            <Dialog
+                modal={true}
+                buttons={
+                    [{
+                        text: "Close",
+                        onClick: () => {setOpenDialog(false)}
+                    }]
+                } open={isOpenDialog}>
+
+                <DialogTitle>
+                    <p>Chi tiết quyền admin</p>
+                </DialogTitle>
+                <DialogContent>
+                    <ReactTable
+                        style={{height: heightOfTbl, marginTop: "20px"}} //TODO
+                        data={[
+                            {id:'Nhân viên', code: 'Kế toán', sl: '9', firstName: '09/09/2022 13:00',statu:'Khóa'},
+                            {id:'Mặt hàng', code: 'Quản lý nhà máy', sl: '5', firstName: '09/12/2022 17:00',statu:'Hoạt động'},
+                        ]}
+                        columns={[
+                            {
+                                Header: "Menu",
+                                accessor: "id"
+                            },
+                            {
+                                Header: "View",
+
+                                id: "lastName1",
+
+                                accessor: (d) => {
+                                    return <Checkbox />;
+                                },
+                            },
+                            {
+                                Header: "Thêm mới",
+                                id: "lastName1",
+                                accessor: (d) => {
+                                    return <Checkbox />;
+                                },
+                            },
+                            {
+                                Header: "Sửa",
+                                id: "lastName1",
+                                accessor: (d) => {
+                                    return <Checkbox />;
+                                },
+                            },
+                            {
+                                Header: "Xóa",
+                                id: "lastName1",
+                                accessor: (d) => {
+                                    return <Checkbox />;
+                                },
+                            },
+                            {
+                                Header: "Duyệt",
+                                id: "lastName1",
+                                accessor: (d) => {
+                                    return <Checkbox />;
+                                },
+                            },
+                            {
+                                Header: "Khóa",
+                                id: "lastName1",
+                                accessor: (d) => {
+                                    return <Checkbox />;
+                                },
+                            },
+                            {
+                                Header: "Xuất file",
+                                id: "lastName1",
+                                accessor: (d) => {
+                                    return <Checkbox />;
+                                },
+                            }
+                        ]}
+
+                    />
+
+                </DialogContent>
+                <DialogActions>
+                    <Button variant="outlined"
+                            onClick={()=>{setOpenDialog(false)}}
+                            className={classes.root}
+                            style={{marginRight: "12px", textTransform: 'none'}}>
+                        Quay lại
+                    </Button>
+                    <Button variant="outlined"
+                            className={classes.root}
+                            style={{marginRight: "12px", textTransform: 'none'}}>
+                        Lưu
+                    </Button>
+                </DialogActions>
+            </Dialog>
+
+        </div>
+    )
+}
+export default Roles
