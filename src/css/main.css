@@ -1,0 +1,147 @@
+.c-main {
+    background: white
+}
+
+:root {
+    --color-1st: #045D8C;
+    --color-2nd: #01509B;
+    --primary-font: 'Roboto', sans-serif;
+    --color-3nd: #029e4d;
+    --primary: #0179ff;
+}
+
+.c-sidebar-brand {
+    background: white !important;
+}
+
+.sidebar-nav .nav-group.show .nav-group-toggle {
+    color: var(--color-1st) !important;
+}
+
+/* .c-sidebar .c-sidebar-nav-dropdown.c-show .c-sidebar-nav-link, .c-sidebar .c-sidebar-nav-dropdown.c-show .c-sidebar-nav-dropdown-toggle{
+    color: var(--color-1st) !important;
+} */
+.c-sidebar .c-sidebar-nav-link:hover,
+.c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+    background: var(--color-2nd) !important;
+}
+
+.c-sidebar .c-sidebar-nav-link,
+.c-sidebar .c-sidebar-nav-dropdown-toggle {
+    color: white !important;
+}
+
+.c-sidebar {
+    background: var(--color-1st) !important;
+}
+
+.c-sidebar .c-sidebar-nav-link,
+.c-sidebar .c-sidebar-nav-dropdown-toggle {
+    color: white !important;
+}
+
+.css-1qqsdnr-MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 5px;
+}
+
+.button-e {
+    text-transform: 'none'
+}
+
+.rt-resizable-header-content {
+    color: var(--color-3nd);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.ReactTable .rt-tbody .rt-td {
+    color: black;
+    font-size: 13px;
+}
+
+.MuiButton-root {
+    color: var(--color-3nd);
+}
+
+.MuiDialogTitle-root {
+    background-color: var(--primary);
+    color: white;
+    height: 50px
+}
+
+.dsg-cell-header {
+    color: var(--color-3nd) !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+}
+
+.dsg-input {
+    font-size: 14px !important;
+}
+
+.MuiTypography-root-MuiDialogTitle-root {
+    background-color: #0094d3;
+    font-size: 14px;
+}
+
+.dsg-add-row-btn {
+    font-size: 14px;
+    padding: 8px
+}
+
+.dsg-add-row-input {
+    font-size: 14px;
+    padding: 8px
+}
+
+.MuiAutocomplete-root .MuiAutocomplete-tag {
+    margin-top: 10px !important;
+}
+
+.MuiDialogContent-root {
+    padding: 0 !important
+}
+
+.MuiButtonBase-root-MuiButton-root {
+    text-transform: none !important;
+}
+
+.dsg-cell-disabled {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+/* .container-fluid {
+    margin-top: -30px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+} */
+
+/* calendar */
+.rbc-toolbar {
+    display: none !important
+}
+
+.rbc-event,
+.rbc-day-slot .rbc-background-event {
+    /* background-color: white !important; */
+    padding: 1px 4px !important;
+    /* color: #029e4d !important;*/
+    font-size: 12px !important;
+}
+.rbc-button-link{
+    font-weight: 450;
+}
+.rbc-off-range-bg{
+    background: #f4f1f1 !important
+}
+.react-calendar-timeline .rct-scroll{
+    overflow-x: hidden !important;
+  }
+.react-calendar-timeline .rct-header-root {
+    background: rgb(2,158,77) !important;
+    background: linear-gradient(45deg, rgba(2,158,77,1) 0%, rgba(3,119,115,1) 50%, rgba(4,94,139,1) 70%, rgba(4,93,140,1) 87%) !important;
+}
+
+.MuiTabPanel-root{
+    padding: 0 !important;
+}

@@ -1,0 +1,65 @@
+
+:root {
+    --teal: #00796B;
+    --Teal_Accent_4: #00BFA5;
+    --primary-font: 'Roboto', sans-serif;
+    --purple_l_1: #535BE2;
+    --danger_l_1: #FF4961;
+    --su_l_1:#0FB365;
+    --warning_l_1: #FF9149;
+    --infor: #2962FF;    ;
+    --yellow_l_1: #FFEE58; 
+    --yellow_d_2: #FBC02D;
+    --yellow_d_4: #F57F17; 
+    --cyan: #00838F; 
+}
+
+.waiting-text {
+    color: var(--yellow_d_4);
+    font-weight: 500;
+    background-color: rgb(255, 244, 222);
+    border: 1px solid rgb(249, 177, 21, 0.3);
+}
+.received-text {
+    color: var(--purple_l_1);
+    font-weight: 500;
+    background-color: rgb(209, 212, 248, 0.3);
+    border: 1px solid #B3B7F4;
+}
+.wating-random-text {
+    color: #C51162;
+    font-weight: 500;
+    background-color: rgb(248, 187, 208, 0.3);
+    border: 1px solid #F48FB1;
+}
+.washing-text {
+    color: var(--infor);
+    font-weight: 500;
+    background-color: rgb(187, 222, 251, 0.3);
+    border: 1px solid #90CAF9;
+}
+.packing-text {
+    color: var(--su_l_1);
+    font-weight: 500;
+    background-color: rgb(191, 241, 223, 0.3);
+    border: 1px solid #94E8CA;
+}
+.done-text {
+    color: var(--teal);
+    font-weight: 500;
+    background-color: rgb(178, 223, 219, 0.3);
+    border: 1px solid #80CBC4;
+}
+
+.delivery-text {
+    color: var(--infor);
+    font-weight: 500;
+    background-color: rgb(187, 222, 251, 0.3);
+    border: 1px solid #90CAF9;
+}
+.waiting-delivery-text {
+    color: var(--purple_l_1);
+    font-weight: 500;
+    background-color: rgb(209, 212, 248, 0.3);
+    border: 1px solid #B3B7F4;
+}
