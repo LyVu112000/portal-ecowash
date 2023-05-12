@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="615f7302-9578-4679-888f-6fe3d8994457" name="Changes" comment="add css, dumpdata, dashboard, enumdata">
-      <change afterPath="$PROJECT_DIR$/dist/output.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/delete-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ecowash.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fast.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bill_error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/checked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/color-wheel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/customer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/empty-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icon-error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/planning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/task.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plus.png" afterDir="false" />
+    <list default="true" id="615f7302-9578-4679-888f-6fe3d8994457" name="Changes" comment="add icon and image">
       <change afterPath="$PROJECT_DIR$/src/components/actionButton/ApproveButton.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/actionButton/CancelButton.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/actionButton/CancelReceivedReceiptButton.js" afterDir="false" />
@@ -182,7 +158,6 @@
       <change afterPath="$PROJECT_DIR$/src/service/role/Role.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/service/staff/Staff.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/service/truck/Truck.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,6 +216,7 @@
       <workItem from="1682060328493" duration="594000" />
       <workItem from="1682388115398" duration="712000" />
       <workItem from="1683779568828" duration="2289000" />
+      <workItem from="1683810557616" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1681706059720</created>
@@ -284,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683789886766</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add icon and image">
+      <created>1683811073977</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683811073977</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +279,7 @@
     <MESSAGE value="add translation, util, scss, assets/icons, common and constant" />
     <MESSAGE value="add config files" />
     <MESSAGE value="add css, dumpdata, dashboard, enumdata" />
-    <option name="LAST_COMMIT_MESSAGE" value="add css, dumpdata, dashboard, enumdata" />
+    <MESSAGE value="add icon and image" />
+    <option name="LAST_COMMIT_MESSAGE" value="add icon and image" />
   </component>
 </project>
